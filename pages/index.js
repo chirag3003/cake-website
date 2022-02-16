@@ -15,6 +15,9 @@ export default function Home() {
             <main>
                 <Navbar/>
                 <LandingSection/>
+                {/*<section>*/}
+
+                {/*</section>*/}
             </main>
         </div>
     )
