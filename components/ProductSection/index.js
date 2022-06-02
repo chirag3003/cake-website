@@ -33,9 +33,9 @@ function Index(props) {
                 Try our best custom designed cakes
             </p>
             <div className="products">
-                <div className="mt-12 max-w-7xl mx-auto grid gap-5 lg:grid-cols-3 ">
+                <div className="mt-12 max-w-7xl mx-auto grid gap-5 lg:grid-cols-3  ">
                     {cakes.map((cake, index) => (
-                        <div key={index} className="flex flex-col rounded-lg shadow-lg overflow-hidden">
+                        <div key={index} className="flex flex-col rounded-3xl shadow-lg overflow-hidden bg-white">
                             <div className="flex-shrink-0">
                                 <img className="h-56
                                  w-full object-cover" src={cake.imageUrl} alt="" />
@@ -48,7 +48,7 @@ function Index(props) {
                                     </div>
                                 </div>
                             </div>
-                            <div className="m-5">
+                            <div className="m-5 bg-white">
                                 <p className="text-center cursor-pointer hover:scale-110 text-lg font-medium text-green-400">
                                     Buy Me →
                                 </p>

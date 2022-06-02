@@ -20,7 +20,7 @@ export default function Home() {
                 <meta name='publisher' content='Chirag Bhalotia' />
                 <link rel="icon" href="/favicon.ico"/>
             </Head>
-            <main>
+            <main className={"bg-pink-50"}>
                 <Navbar/>
                 <LandingSection/>
                 <ProductSection/>
