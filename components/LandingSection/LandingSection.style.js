@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export default styled.section`
-  height:80vh;
+  //height:80vh;
   .image{
     img{
       position: absolute;

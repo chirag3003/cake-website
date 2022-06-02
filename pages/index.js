@@ -2,7 +2,8 @@ import Head from 'next/head'
 import Navbar from "components/Navbar/Navbar"
 import LandingSection from "components/LandingSection/LandingSection";
 import ProductSection from "components/ProductSection";
-
+import Incentives from "components/Incentives";
+import Contact from "components/Contact"
 
 export default function Home() {
     return (
@@ -16,6 +17,8 @@ export default function Home() {
                 <Navbar/>
                 <LandingSection/>
                 <ProductSection/>
+                <Incentives/>
+                <Contact/>
             </main>
         </div>
     )
